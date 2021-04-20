@@ -19,18 +19,47 @@
 			</ul>
 		</nav>
 	<header id="main">
-		<h1>Welcome!</h1>
-
-
+		<h1>Hello and Welcome!</h1>
 	</header>
 
 	<main class="all">
 		<div class="Me">
 			<p>Hi, this is Shirley Wang. Welcome to my coffee space and hope you enjoy your time here!</p>
+			<img src="imgs/Shirley.JPG" alt="picture of Shirley"/>
 		</div>
 
-		<div class="picture_me">
-			<img src="imgs/Shirley.JPG" alt="picture of Shirley"/>
+		<div class="Bean">
+			<p>Intersted in Coffee Bean? Click <a href="bean.html" class="bean">Here</a> to explore more!</p>
+		</div>
+
+		<div class="Bean_img">
+			<img src="imgs/beans.jpeg" alt="coffee beans"/>
+			<img src="imgs/side_effect.jpeg" alt="side effect of coffee"/>
+		</div>
+
+		<div class="Tool">
+			<p>Want to know more about tools? Click <a href="tools.html" class="tools">Here</a> to explore!</p>
+		</div>
+
+		<div class="Tool_img">
+			<img src="imgs/dripmaker.jpeg" alt="drip maker"/>
+			<img src="imgs/expresso_machine.jpeg" alt="expresso machine"/>
+		</div>
+
+		<div class="form">
+			<p>Enjoyed this Space? Leave a message now!</p>
+			<form action="https://formspree.io/f/mwkaprrk" method="POST">
+				<label for="fullname">Your Name</label>
+    			<input type="text" id="fullname" name="fullname" placeholder="Enter You Name Here:"><br>
+
+    			<label for="email">Your Email</label>
+    			<input type="email" name="email" id="email" placeholder="Enter Your Email Here:"><br>
+
+    			<label for="msg">Leave A Message</label>
+    			<textarea placeholder="Leave A Message Here:" name="message" id='msg'></textarea><br>
+			
+				<button type="submit">Sumbit</button>
+			</form>
 		</div>
 
 
