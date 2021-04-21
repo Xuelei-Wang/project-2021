@@ -436,4 +436,7 @@ footer{
   header h1{
     animation: none;
   }
+  header{
+    background-attachment: scroll;
+  }
 }
