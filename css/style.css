@@ -179,6 +179,17 @@ header h1{
 .flip-card1:hover .flip-card-inner,  .flip-card2:hover .flip-card-inner, .flip-card3:hover .flip-card-inner, .flip-card4:hover .flip-card-inner, .flip-card5:hover .flip-card-inner, .flip-card6:hover .flip-card-inner{
   transform: rotateY(180deg);
 }
+.flip-card1:focus .flip-card-inner,  .flip-card2:focus .flip-card-inner, .flip-card3:focus .flip-card-inner, .flip-card4:focus .flip-card-inner, .flip-card5:focus .flip-card-inner, .flip-card6:focus .flip-card-inner{
+  transform: rotateY(180deg);
+}
+.flip-card1:focus-within .flip-card-inner,.flip-card2:focus-within .flip-card-inner,.flip-card3:focus-within .flip-card-inner,.flip-card4:focus-within .flip-card-inner,.flip-card5:focus-within .flip-card-inner,.flip-card6:focus-within .flip-card-inner{
+  transform: rotateY(180deg);
+}
+.flip-card1:active .flip-card-inner,.flip-card2:active .flip-card-inner,.flip-card3:active .flip-card-inner,.flip-card4:active .flip-card-inner,.flip-card5:active .flip-card-inner,.flip-card6:active .flip-card-inner{
+  transform: rotateY(180deg);
+}
+
+
 
 .flip-card-front, .flip-card-back {
   position: absolute;
@@ -189,7 +200,7 @@ header h1{
 }
 
 .flip-card-front {
-  background-color: #bbb;
+  background-color: #bac7a7;
 }
 
 .flip-card-back {
@@ -438,5 +449,8 @@ footer{
   }
   header{
     background-attachment: scroll;
+  }
+  .flip-card1 .flip-card-inner,.flip-card2 .flip-card-inner,.flip-card3 .flip-card-inner,.flip-card4 .flip-card-inner,.flip-card5 .flip-card-inner, .flip-card6 .flip-card-inner{
+    transform: rotateY(180deg);
   }
 }
